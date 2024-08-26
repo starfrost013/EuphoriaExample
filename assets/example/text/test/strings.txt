@@ -1,0 +1,3 @@
+// strings file for language Test
+
+STRING_TEST=Test! (now in a different language)

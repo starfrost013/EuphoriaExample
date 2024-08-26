@@ -1,0 +1,71 @@
+// Game: Zombono
+// Format: Quake2
+// entity 0
+{
+"_tb_textures" "textures;textures\architecture;textures\blockout;textures\e1u1;textures\e1u2;textures\e1u3;textures\e2u1;textures\e2u2;textures\e2u3;textures\e3u1;textures\e3u2;textures\e3u3;textures\objects;textures\other;textures\signage;textures\tech"
+"classname" "worldspawn"
+// brush 0
+{
+( -480 -512 -16 ) ( -480 -504 -16 ) ( -480 -512 -15 ) architecture/wall_generic_06 0 0 0 1 1
+( -480 -512 -16 ) ( -480 -512 -15 ) ( -472 -512 -16 ) architecture/wall_generic_06 0 0 0 1 1
+( -480 -512 -16 ) ( -472 -512 -16 ) ( -480 -504 -16 ) architecture/wall_generic_06 0 0 0 1 1
+( 544 512 16 ) ( 544 520 16 ) ( 552 512 16 ) architecture/wall_generic_06 0 0 0 1 1
+( 544 512 16 ) ( 552 512 16 ) ( 544 512 17 ) architecture/wall_generic_06 0 0 0 1 1
+( 544 512 16 ) ( 544 512 17 ) ( 544 520 16 ) architecture/wall_generic_06 0 0 0 1 1
+}
+// brush 1
+{
+( -480 -512 16 ) ( -480 -504 16 ) ( -480 -512 29 ) architecture/wall_generic_06 0 0 0 1 1
+( -480 -512 16 ) ( -480 -512 29 ) ( -479.875 -512 16 ) architecture/wall_generic_06 0 0 0 1 1
+( -480 -512 16 ) ( -479.875 -512 16 ) ( -480 -504 16 ) architecture/wall_generic_06 0 0 0 1 1
+( -464 512 432 ) ( -464 520 432 ) ( -463.87500000000057 512 432 ) architecture/wall_generic_06 0 0 0 1 1
+( -464 512 432 ) ( -463.87500000000057 512 432 ) ( -464 512 445 ) architecture/wall_generic_06 0 0 0 1 1
+( -464 512 432 ) ( -464 512 445 ) ( -464 520 432 ) architecture/wall_generic_06 0 0 0 1 1
+}
+// brush 2
+{
+( 528 -512 16 ) ( 528 -504 16 ) ( 528 -512 29 ) architecture/wall_generic_06 0 0 0 1 1
+( 528 -512 16 ) ( 528 -512 29 ) ( 528.125 -512 16 ) architecture/wall_generic_06 0 0 0 1 1
+( 528 -512 16 ) ( 528.125 -512 16 ) ( 528 -504 16 ) architecture/wall_generic_06 0 0 0 1 1
+( 544 512 432 ) ( 544 520 432 ) ( 544.1249999999994 512 432 ) architecture/wall_generic_06 0 0 0 1 1
+( 544 512 432 ) ( 544.1249999999994 512 432 ) ( 544 512 445 ) architecture/wall_generic_06 0 0 0 1 1
+( 544 512 432 ) ( 544 512 445 ) ( 544 520 432 ) architecture/wall_generic_06 0 0 0 1 1
+}
+// brush 3
+{
+( -464 -496 432 ) ( -464 -495.87500000000057 432 ) ( -464 -496 445 ) architecture/wall_generic_06 0 0 0 1 1
+( 528 -512 16 ) ( 520.25 -512 16 ) ( 528 -512 29 ) architecture/wall_generic_06 0 0 0 1 1
+( 528 -512 16 ) ( 528 -511.875 16 ) ( 520.25 -512 16 ) architecture/wall_generic_06 0 0 0 1 1
+( -464 -496 432 ) ( -471.74999999999994 -496 432 ) ( -464 -495.87500000000057 432 ) architecture/wall_generic_06 0 0 0 1 1
+( -464 -496 432 ) ( -464 -496 445 ) ( -471.74999999999994 -496 432 ) architecture/wall_generic_06 0 0 0 1 1
+( 528 -512 16 ) ( 528 -512 29 ) ( 528 -511.875 16 ) architecture/wall_generic_06 0 0 0 1 1
+}
+// brush 4
+{
+( -464 512 432 ) ( -464 512.1249999999994 432 ) ( -464 512 445 ) architecture/wall_generic_06 0 0 0 1 1
+( 528 496 16 ) ( 520.25 496 16 ) ( 528 496 29 ) architecture/wall_generic_06 0 0 0 1 1
+( 528 496 16 ) ( 528 496.125 16 ) ( 520.25 496 16 ) architecture/wall_generic_06 0 0 0 1 1
+( -464 512 432 ) ( -471.75 512 432 ) ( -464 512.1249999999994 432 ) architecture/wall_generic_06 0 0 0 1 1
+( -464 512 432 ) ( -464 512 445 ) ( -471.75 512 432 ) architecture/wall_generic_06 0 0 0 1 1
+( 528 496 16 ) ( 528 496 29 ) ( 528 496.125 16 ) architecture/wall_generic_06 0 0 0 1 1
+}
+// brush 5
+{
+( -480 -512 432 ) ( -480 -504 432 ) ( -480 -512 433 ) architecture/wall_generic_06 0 0 0 1 1
+( -480 -512 432 ) ( -480 -512 433 ) ( -472 -512 432 ) architecture/wall_generic_06 0 0 0 1 1
+( -480 -512 432 ) ( -472 -512 432 ) ( -480 -504 432 ) architecture/wall_generic_06 0 0 0 1 1
+( 544 512 464 ) ( 544 520 464 ) ( 552 512 464 ) architecture/wall_generic_06 0 0 0 1 1
+( 544 512 464 ) ( 552 512 464 ) ( 544 512 465 ) architecture/wall_generic_06 0 0 0 1 1
+( 544 512 464 ) ( 544 512 465 ) ( 544 520 464 ) architecture/wall_generic_06 0 0 0 1 1
+}
+}
+// entity 1
+{
+"classname" "weapon_machinegun"
+"origin" "320 -32 32"
+}
+// entity 2
+{
+"classname" "info_player_start"
+"origin" "-120 152 40"
+}
