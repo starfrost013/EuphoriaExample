@@ -196,7 +196,7 @@ void Game_Init ()
 	sv_cheats = gi.Cvar_Get("sv_cheats", "0", CVAR_SERVERINFO | CVAR_LATCH);
 
 	gi.Cvar_Get("gamename", GAME_NAME, CVAR_SERVERINFO | CVAR_LATCH);
-	gi.Cvar_Get("gamedate", __DATE__, CVAR_SERVERINFO | CVAR_LATCH);
+	gi.Cvar_Get("gamedate", GAME_VERSION_FULL, CVAR_SERVERINFO | CVAR_LATCH);
 	gi.Cvar_Get("gameversion", GAME_VERSION, CVAR_SERVERINFO | CVAR_LATCH);
 
 	sv_maxclients = gi.Cvar_Get("sv_maxclients", "4", CVAR_SERVERINFO | CVAR_LATCH);

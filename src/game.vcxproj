@@ -98,7 +98,7 @@
     <TargetName>$(ProjectName)x64</TargetName>
     <LinkIncremental>true</LinkIncremental>
     <IntDir>$(SolutionDir)\obj\$(Configuration)\obj_game\</IntDir>
-    <OutDir>$(SolutionDir)build\$(Configuration)\zombonogame\</OutDir>
+    <OutDir>$(SolutionDir)build\$(Configuration)\examplegame\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -170,7 +170,7 @@
       <StackReserveSize>4194304</StackReserveSize>
     </Link>
     <PreBuildEvent>
-      <Command>$(SolutionDir)\tools\assetbuild\bin\$(Configuration)\net8.0\assetbuild.exe zombonogame $(Configuration)</Command>
+      <Command>$(SolutionDir)\tools\assetbuild\bin\$(Configuration)\net8.0\assetbuild.exe examplegame $(Configuration)</Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
