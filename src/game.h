@@ -168,7 +168,7 @@ typedef struct game_import_s
 	void	(*WriteAngle) (float f);
 
 	// managed memory allocation
-	void* (*TagMalloc) (int32_t size, int32_t tag);
+	void*	(*TagMalloc) (int32_t size, int32_t tag);
 	void	(*TagFree) (void* block);
 	void	(*FreeTags) (int32_t tag);
 

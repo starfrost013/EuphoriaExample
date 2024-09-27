@@ -89,7 +89,7 @@ void SP_target_speaker(edict_t* ent)
 		return;
 	}
 	if (!strstr(st.noise, ".wav"))
-		Com_sprintf(buffer, sizeof(buffer), "%s.wav", st.noise);
+		snprintf(buffer, sizeof(buffer), "%s.wav", st.noise);
 	else
 		strncpy(buffer, st.noise, sizeof(buffer));
 	ent->noise_index = gi.soundindex(buffer);

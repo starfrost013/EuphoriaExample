@@ -809,7 +809,7 @@ void Client_CommandPlayers(edict_t* ent)
 
 	for (i = 0; i < count; i++)
 	{
-		Com_sprintf(small, sizeof(small), "%3i %s\n",
+		snprintf(small, sizeof(small), "%3i %s\n",
 			game.clients[index[i]].ps.stats[STAT_FRAGS],
 			game.clients[index[i]].pers.netname);
 
@@ -939,9 +939,9 @@ void Client_CommandSay(edict_t* ent, bool team, bool arg0)
 		return;
 
 	if (team)
-		Com_sprintf(text, sizeof(text), "(%s): ", ent->client->pers.netname);
+		snprintf(text, sizeof(text), "(%s): ", ent->client->pers.netname);
 	else
-		Com_sprintf(text, sizeof(text), "%s: ", ent->client->pers.netname);
+		snprintf(text, sizeof(text), "%s: ", ent->client->pers.netname);
 
 	if (arg0)
 	{
@@ -1033,7 +1033,7 @@ void Client_CommandPlayerList(edict_t* ent)
 		if (!e2->inuse)
 			continue;
 
-		Com_sprintf(st, sizeof(st), "%02d:%02d %4d %3d %s%s\n",
+		snprintf(st, sizeof(st), "%02d:%02d %4d %3d %s%s\n",
 			(level.framenum - e2->client->resp.enterframe) / 600,
 			((level.framenum - e2->client->resp.enterframe) % 600) / 10,
 			e2->client->ping,

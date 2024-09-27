@@ -298,7 +298,7 @@ char* vtos(vec3_t v)
 	s = str[index];
 	index = (index + 1) & 7;
 
-	Com_sprintf(s, 32, "(%i %i %i)", (int32_t)v[0], (int32_t)v[1], (int32_t)v[2]);
+	snprintf(s, 32, "(%i %i %i)", (int32_t)v[0], (int32_t)v[1], (int32_t)v[2]);
 
 	return s;
 }

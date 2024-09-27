@@ -217,8 +217,6 @@ void COM_DefaultExtension(char* path, char* extension);
 char* COM_Parse(char** data_p);
 // data is an in/out parm, returns a parsed out token
 
-void Com_sprintf(char* dest, int32_t size, char* fmt, ...);
-
 void Com_PageInMemory(uint8_t* buffer, int32_t size);
 
 //=============================================
@@ -268,18 +266,18 @@ SYSTEM SPECIFIC
 ==============================================================
 */
 
-extern	int32_t curtime;		// time returned by last Sys_Milliseconds
-extern	int64_t curtime_ns;		// time returned by last Sys_Nanoseconds
+extern int32_t curtime;		// time returned by last Sys_Milliseconds
+extern int64_t curtime_ns;	// time returned by last Sys_Nanoseconds
 
 int32_t Sys_Milliseconds();
 int64_t Sys_Nanoseconds(); // should be platform independent
 void Sys_Mkdir(char* path);
 
 // large block stack allocation routines
-void* Hunk_Begin(int32_t maxsize);
-void* Hunk_Alloc(int32_t size);
-void Hunk_Free(void* buf);
-int32_t Hunk_End();
+void* Memory_HunkBegin(int32_t maxsize);
+void* Memory_HunkAlloc(int32_t size);
+void Memory_HunkFree(void* buf);
+int32_t Memory_HunkEnd();
 
 // directory searching
 #define SFF_ARCH    0x01

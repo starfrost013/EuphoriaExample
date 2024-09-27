@@ -767,7 +767,7 @@ FIXME: make this buffer size safe someday
 char* va(char* format, ...)
 {
 	va_list		argptr;
-	static char		string[1024];
+	static char	string[1024];
 
 	va_start(argptr, format);
 	vsnprintf(string, 1024, format, argptr);
@@ -853,7 +853,8 @@ skipwhite:
 		}
 		data++;
 		c = *data;
-	} while (c > 32);
+	} 
+	while (c > 32);
 
 	if (len == MAX_TOKEN_CHARS)
 	{
@@ -934,21 +935,6 @@ int32_t Q_strcasecmp(char* s1, char* s2)
 	return Q_strncasecmp(s1, s2, 99999);
 }
 
-void Com_sprintf(char* dest, int32_t size, char* fmt, ...)
-{
-	char bigbuffer[0x10000];
-
-	int32_t  len;
-	va_list	 argptr;
-
-	va_start(argptr, fmt);
-	len = vsnprintf(bigbuffer, 0x10000, fmt, argptr);
-	va_end(argptr);
-	if (len >= size)
-		Com_Printf("Com_sprintf: overflow of %i in %i\n", len, size);
-
-	strncpy(dest, bigbuffer, size - 1);
-}
 
 /*
 =====================================================================
@@ -1108,7 +1094,7 @@ void Info_SetValueForKey(char* s, char* key, char* value)
 	if (!value || !strlen(value))
 		return;
 
-	Com_sprintf(newi, sizeof(newi), "\\%s\\%s", key, value);
+	snprintf(newi, sizeof(newi), "\\%s\\%s", key, value);
 
 	if (strlen(newi) + strlen(s) > maxsize)
 	{

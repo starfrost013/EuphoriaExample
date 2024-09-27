@@ -213,7 +213,7 @@ edict_t* CreateTargetChangeLevel(char* map)
 
 	ent = Edict_Spawn();
 	ent->classname = "target_changelevel";
-	Com_sprintf(level.nextmap, sizeof(level.nextmap), "%s", map);
+	snprintf(level.nextmap, sizeof(level.nextmap), "%s", map);
 	ent->map = level.nextmap;
 	return ent;
 }
@@ -344,7 +344,7 @@ void Level_Exit()
 	edict_t* ent;
 	char	command[256];
 
-	Com_sprintf(command, sizeof(command), "gamemap \"%s\"\n", level.changemap);
+	snprintf(command, sizeof(command), "gamemap \"%s\"\n", level.changemap);
 	gi.AddCommandString(command);
 	level.changemap = NULL;
 	level.exitintermission = 0;
