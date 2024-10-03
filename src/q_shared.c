@@ -21,16 +21,6 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #include "q_shared.h"
 
 
-//============================================================================
-//Restore this if it breaks anything
-
-//#ifdef _WIN32
-//#pragma optimize( "", off )
-//#endif
-
-
-//====================================================================================
-
 /*
 ============
 COM_SkipPath
