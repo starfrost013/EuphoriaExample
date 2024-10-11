@@ -25,7 +25,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 // the game needs it to source shot locations, the client
 // needs it to position muzzle flashes
 
-#include "../q_shared.h"
+#include "../shared.h"
 
 vec3_t monster_flash_offset [] =
 {

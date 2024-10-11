@@ -20,7 +20,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 
 */
 	
-// q_shared.h -- included first by ALL program modules
+// shared.h -- included first by ALL program modules
 #pragma once
 #ifdef _WIN32
 // unknown pragmas are SUPPOSED to be ignored, but....
@@ -228,7 +228,7 @@ int32_t Q_strncasecmp(char* s1, char* s2, int32_t n);
 
 //=============================================
 
-// If this isn't included from common.h *AND* q_shared.h the game dies BECAUSE THESE FUNCTIONS ALSO GET CALLED FROM THE GAME DLL
+// If this isn't included from common.h *AND* shared.h the game dies BECAUSE THESE FUNCTIONS ALSO GET CALLED FROM THE GAME DLL
 extern bool big_endian;
 
 int16_t	BigShort(int16_t l);
