@@ -36,160 +36,160 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="shared.c">
+    <ClCompile Include="ammunition\ammo_bamfuslicator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ai\ai_base.c">
+    <ClCompile Include="ammunition\ammo_blaster.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="gameplay\game_chase_camera.c">
+    <ClCompile Include="ammunition\ammo_bullet.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="gameplay\game_cmds_client.c">
+    <ClCompile Include="ammunition\ammo_grenade.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="gameplay\game_combat.c">
+    <ClCompile Include="ammunition\ammo_melee.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="entities\entity_func.c">
+    <ClCompile Include="ammunition\ammo_rail.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="entities\entity_items.c">
+    <ClCompile Include="ammunition\ammo_rocket.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="gameplay\game_main.c">
+    <ClCompile Include="ai\ai_base.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="entities\entity_misc.c">
+    <ClCompile Include="ammunition\ammo_tangfuslicator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ai\ai_monster.c">
+    <ClCompile Include="gamemodes\gamemode_tdm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="physics\physics_base.c">
+    <ClCompile Include="gamemodes\gamemode_waves.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="gameplay\game_save.c">
+    <ClCompile Include="gameplay\game_chase_camera.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="entities\entity_base.c">
+    <ClCompile Include="gameplay\game_client.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="gameplay\game_cmds_server.c">
+    <ClCompile Include="gameplay\game_client_spawn.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="entities\entity_target.c">
+    <ClCompile Include="gameplay\game_cmds_client.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="entities\entity_trigger.c">
+    <ClCompile Include="gameplay\game_combat.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="util\game_utils.c">
+    <ClCompile Include="entities\entity_func.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="gameplay\game_client_connect.c">
+    <ClCompile Include="entities\entity_items.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="gameplay\game_ui.c">
+    <ClCompile Include="gameplay\game_loadout.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="gameplay\game_player_trail.c">
+    <ClCompile Include="gameplay\game_main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="gameplay\game_client_view.c">
+    <ClCompile Include="entities\entity_misc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="physics\physics_movement.c">
+    <ClCompile Include="ai\ai_monster.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="gameplay\game_monster_flash.c">
+    <ClCompile Include="physics\physics_base.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ammunition\ammo_melee.c">
-      <Filter>Source Files\Ammunition</Filter>
-    </ClCompile>
-    <ClCompile Include="ammunition\ammo_bullet.c">
-      <Filter>Source Files\Ammunition</Filter>
-    </ClCompile>
-    <ClCompile Include="ammunition\ammo_blaster.c">
-      <Filter>Source Files\Ammunition</Filter>
-    </ClCompile>
-    <ClCompile Include="ammunition\ammo_bamfuslicator.c">
-      <Filter>Source Files\Ammunition</Filter>
-    </ClCompile>
-    <ClCompile Include="ammunition\ammo_grenade.c">
-      <Filter>Source Files\Ammunition</Filter>
-    </ClCompile>
-    <ClCompile Include="ammunition\ammo_rail.c">
-      <Filter>Source Files\Ammunition</Filter>
-    </ClCompile>
-    <ClCompile Include="ammunition\ammo_rocket.c">
-      <Filter>Source Files\Ammunition</Filter>
-    </ClCompile>
-    <ClCompile Include="weapons\weapon_base.c">
-      <Filter>Source Files\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="weapons\weapon_grenade_hand.c">
-      <Filter>Source Files\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="weapons\weapon_grenade_launcher.c">
-      <Filter>Source Files\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="weapons\weapon_rocket_launcher.c">
-      <Filter>Source Files\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="weapons\weapon_blaster.c">
-      <Filter>Source Files\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="weapons\weapon_blaster_hyper.c">
-      <Filter>Source Files\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="weapons\weapon_machinegun.c">
-      <Filter>Source Files\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="weapons\weapon_chaingun.c">
-      <Filter>Source Files\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="weapons\weapon_shotgun.c">
-      <Filter>Source Files\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="weapons\weapon_shotgun_super.c">
-      <Filter>Source Files\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="weapons\weapon_railgun.c">
-      <Filter>Source Files\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="weapons\weapon_bamfuslicator.c">
-      <Filter>Source Files\Weapons</Filter>
-    </ClCompile>
-    <ClCompile Include="mobs\mob_ogre.c">
+    <ClCompile Include="gameplay\game_save.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="mobs\mob_zombie.c">
+    <ClCompile Include="entities\entity_base.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="mobs\mob_zombie_fast.c">
+    <ClCompile Include="gameplay\game_cmds_server.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="gameplay\game_client_spawn.c">
+    <ClCompile Include="entities\entity_target.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="gameplay\game_client.c">
+    <ClCompile Include="entities\entity_trigger.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="weapons\weapon_tangfuslicator.c">
+    <ClCompile Include="util\game_utils.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ammunition\ammo_tangfuslicator.c">
+    <ClCompile Include="gameplay\game_monster_flash.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="gameplay\game_loadout.c">
+    <ClCompile Include="physics\physics_movement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="gamemodes\gamemode_tdm.c">
+    <ClCompile Include="mobs\mob_ogre.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="gamemodes\gamemode_waves.c">
+    <ClCompile Include="mobs\mob_zombie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mobs\mob_zombie_fast.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gameplay\game_client_connect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gameplay\game_ui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gameplay\game_player_trail.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gameplay\game_client_view.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shared.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="weapons\weapon_bamfuslicator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="weapons\weapon_base.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="weapons\weapon_blaster.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="weapons\weapon_blaster_hyper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="weapons\weapon_chaingun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="weapons\weapon_grenade_hand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="weapons\weapon_grenade_launcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="weapons\weapon_machinegun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="weapons\weapon_railgun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="weapons\weapon_rocket_launcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="weapons\weapon_shotgun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="weapons\weapon_shotgun_super.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="weapons\weapon_tangfuslicator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -199,28 +199,28 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="shared.h">
+    <ClInclude Include="game.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="game_local.h">
+    <ClInclude Include="game_local.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="game.h">
+    <ClInclude Include="entities\entity_base.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="entities\entity_base.h">
+    <ClInclude Include="mobs\mob_ogre.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="mobs\mob_ogre.h">
+    <ClInclude Include="mobs\mob_player.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="mobs\mob_player.h">
+    <ClInclude Include="mobs\mob_zombie.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="mobs\mob_zombie.h">
+    <ClInclude Include="mobs\mob_zombie_fast.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="mobs\mob_zombie_fast.h">
+    <ClInclude Include="shared.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
