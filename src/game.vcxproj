@@ -324,7 +324,7 @@
     <ClCompile Include="gameplay\game_ui.c" />
     <ClCompile Include="gameplay\game_player_trail.c" />
     <ClCompile Include="gameplay\game_client_view.c" />
-    <ClCompile Include="q_shared.c" />
+    <ClCompile Include="shared.c" />
     <ClCompile Include="weapons\weapon_bamfuslicator.c" />
     <ClCompile Include="weapons\weapon_base.c" />
     <ClCompile Include="weapons\weapon_blaster.c" />
@@ -354,7 +354,7 @@
     <ClInclude Include="mobs\mob_player.h" />
     <ClInclude Include="mobs\mob_zombie.h" />
     <ClInclude Include="mobs\mob_zombie_fast.h" />
-    <ClInclude Include="q_shared.h" />
+    <ClInclude Include="shared.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -36,7 +36,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="q_shared.c">
+    <ClCompile Include="shared.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ai\ai_base.c">
@@ -199,7 +199,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="q_shared.h">
+    <ClInclude Include="shared.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="game_local.h">
